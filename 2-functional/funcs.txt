@@ -1,0 +1,24 @@
+add()
+{
+  echo `expr $1 + $2`
+}
+
+sub()
+{
+  echo `expr $1 - $2`
+}
+
+mult()
+{
+  echo `expr $1 \* $2`
+}
+
+div()
+{
+  echo `expr $1 / $2`
+}
+
+mod()
+{
+  echo `expr $1 % $2`
+}
